@@ -37,9 +37,9 @@ function App() {
   }, [filterStatus, todos]);
 
   return (
-    <div className="App flex h-screen max-h-screen w-screen flex-col items-center overflow-hidden  bg-blue-200  py-6 px-40">
+    <div className="App flex h-screen max-h-screen flex-col overflow-hidden  bg-blue-200  py-6 px-10 md:px-40">
       <header className="mb-4">
-        <h1 className="text-5xl font-bold">Todo App</h1>
+        <h1 className="text-center text-5xl font-bold">Todo App</h1>
       </header>
 
       <div className="min-h-5/6 flex h-5/6 w-full flex-col items-center  rounded-md bg-white p-6 ">
